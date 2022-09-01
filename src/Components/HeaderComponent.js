@@ -1,20 +1,25 @@
-import React, { Fragment } from "react";
-import { Navbar, NavItem, Nav, NavLink } from "reactstrap";
+import React, { Fragment, Component } from "react";
+import {NavItem, Nav, NavLink } from "reactstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-class Header extends React {
+class Header extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div>
-					<Navbar dark sticky="top">
-						<Nav>
-							<NavItem>
-								<NavLink>Home</NavLink>
-							</NavItem>
-						</Nav>
-					</Navbar>
-				</div>
+					<Nav className="bg-dark">
+						<NavItem>
+							<NavLink>Home</NavLink>
+					</NavItem>
+					<NavItem>
+						<NavLink>About</NavLink>
+					</NavItem>
+					<NavItem>
+						<NavLink>Mission</NavLink>
+					</NavItem>
+					<NavItem>
+						<NavLink>Contact</NavLink>
+					</NavItem>
+					</Nav>
 			</Fragment>
 		)
 
