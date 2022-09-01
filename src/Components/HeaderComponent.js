@@ -1,14 +1,14 @@
 import React, { Fragment, Component } from "react";
-import {NavItem, Nav, NavLink } from "reactstrap";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { NavItem, Nav, NavLink } from "reactstrap";
+
 
 class Header extends Component {
 	render() {
 		return (
 			<Fragment>
-					<Nav className="bg-dark">
-						<NavItem>
-							<NavLink>Home</NavLink>
+				<Nav className="bg-dark">
+					<NavItem>
+						<NavLink>Home</NavLink>
 					</NavItem>
 					<NavItem>
 						<NavLink>About</NavLink>
@@ -19,7 +19,7 @@ class Header extends Component {
 					<NavItem>
 						<NavLink>Contact</NavLink>
 					</NavItem>
-					</Nav>
+				</Nav>
 			</Fragment>
 		)
 
