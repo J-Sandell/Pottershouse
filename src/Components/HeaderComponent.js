@@ -15,7 +15,7 @@ class Header extends Component {
 					</div>
 				</div>
 
-				<Nav className="navbar navbar-expand-lg bg-dark">
+				<Nav className="navbar bg-dark">
 					<NavItem>
 						<NavLink>Home</NavLink>
 					</NavItem>
@@ -28,6 +28,8 @@ class Header extends Component {
 					<NavItem>
 						<NavLink>Contact</NavLink>
 					</NavItem>
+					<button type="button">Donate</button>
+
 				</Nav>
 
 			</Fragment>
