@@ -15,7 +15,7 @@ class Header extends Component {
 					</div>
 				</div>
 
-				<Nav className="navbar bg-dark">
+				<Nav className="navbar-fluid bg-dark">
 					<NavItem>
 						<NavLink>Home</NavLink>
 					</NavItem>
@@ -28,7 +28,7 @@ class Header extends Component {
 					<NavItem>
 						<NavLink>Contact</NavLink>
 					</NavItem>
-					<button type="button">Donate</button>
+					<button type="button" className="btn btn-success offset-1">Donate</button>
 
 				</Nav>
 
