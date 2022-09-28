@@ -15,7 +15,7 @@ class Header extends Component {
 					</div>
 				</div>
 
-				<Nav className="navbar-fluid bg-dark">
+				<Nav className="bg-dark">
 					<NavItem>
 						<NavLink>Home</NavLink>
 					</NavItem>
