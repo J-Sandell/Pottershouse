@@ -1,41 +1,28 @@
-import React, { Fragment, Component } from "react";
-import { NavItem, Nav, NavLink } from "reactstrap";
+import React, { Fragment } from "react";
 
 
-class Header extends Component {
-	render() {
-		return (
-			<Fragment>
 
-				<div className="container-fluid">
-					<div className="row">
-						<div className="col">
-							<h1 className="text-center">The Potter's House Christian Fellowship Church</h1>
+function Header() {
+	return (
+		<Fragment>
+			<div className="container-fluid bg-light">
+				<div className="row" fluid>
+					<div className="col">
+						<img src="/assets/logo.png" height={150} width={150} alt="logo" />
+					</div>
+					<div className="col-10">
+						<h1>The Potter's House Christian Fellowship</h1>
+						<div>
+							<p>727 Fairview Dr Suite B/C</p>
+							<p>Carson City, NV 89702</p>
+							<p>CarsonCityPottersHouse@gmail.com</p>
 						</div>
 					</div>
 				</div>
+			</div>
 
-				<Nav className="bg-dark">
-					<NavItem>
-						<NavLink>Home</NavLink>
-					</NavItem>
-					<NavItem>
-						<NavLink>About</NavLink>
-					</NavItem>
-					<NavItem>
-						<NavLink>Mission</NavLink>
-					</NavItem>
-					<NavItem>
-						<NavLink>Contact</NavLink>
-					</NavItem>
-					<button type="button" className="btn btn-success offset-1">Donate</button>
-
-				</Nav>
-
-			</Fragment>
-		)
-
-	}
+		</Fragment>
+	)
 }
 
 

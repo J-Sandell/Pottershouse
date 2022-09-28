@@ -1,3 +1,8 @@
 h1{
   color: black;
 };
+
+p{
+  padding: 2px;
+  margin: 2px;
+}
