@@ -5,19 +5,19 @@ import React, { Fragment } from "react";
 function Header() {
 	return (
 		<Fragment>
-			<div className="container-fluid bg-light">
-				<div className="row" fluid>
-					<div className="col">
-						<img src="/assets/logo.png" height={150} width={150} alt="logo" />
+			<div className="container-fluid bg-dark">
+				<div className="row">
+					<div className="col-2">
+						<img src="/assets/logo.png" height={200} width={200} alt="logo" />
 					</div>
-					<div className="col-10">
-						<h1>The Potter's House Christian Fellowship</h1>
-						<div>
-							<p>727 Fairview Dr Suite B/C</p>
-							<p>Carson City, NV 89702</p>
-							<p>CarsonCityPottersHouse@gmail.com</p>
-						</div>
+					<div className="col text-white">
+						<h1 className="mt-4">The Potter's House Christian Fellowship</h1>
+						<p className="pt-3">727 Fairview Dr Suite B/C <br />
+							Carson City, NV 89702 <br />
+							<button>CarsonCityPottersHouse@gmail.com</button>
+						</p>
 					</div>
+
 				</div>
 			</div>
 
