@@ -17,7 +17,13 @@ function Header() {
 							<button>CarsonCityPottersHouse@gmail.com</button>
 						</p>
 					</div>
-
+					<div className="col-2 text-white">
+						<h2>Service Times:</h2>
+						<h4>Sunday</h4>
+						<p>11 AM and 6 PM</p>
+						<h4>Wednesday</h4>
+						<p>7 PM</p>
+					</div>
 				</div>
 			</div>
 
