@@ -6,12 +6,11 @@ function Home() {
 	return (
 		<Fragment>
 			<div>
-				<h1 className="text-center">
-					Mission Statement:
-				</h1>
-				<p>We are a Bible believing Pentecostal Christian church. We believe and preach salvation through repentance of sins and acceptance of Jesus Christ as your Lord and Savior</p>
+				<h2>Meet the Pastor and Family</h2>
+				<img src="/assets/Family pic.jpg" alt="family photo" height={350} width={350} ></img>
 
 			</div>
+
 		</Fragment>
 	)
 }

@@ -5,16 +5,16 @@ import React, { Fragment } from "react";
 function Header() {
 	return (
 		<Fragment>
-			<div className="container-fluid bg-dark">
+			<div className="container-fluid bg-light">
 				<div className="row">
 					<div className="col-2">
 						<img src="/assets/logo.png" height={200} width={200} alt="logo" />
 					</div>
 					<div className="col text-black">
-						<h1 className="mt-4">The Potter's House Christian Fellowship</h1>
+						<h1 className="mt-4 text-center">The Potter's House Christian Fellowship</h1>
+						<p className="text-center">"We are a Bible believing Pentecostal Christian church. We believe and preach salvation through repentance of sins and acceptance of Jesus Christ as your Lord and Savior"</p>
 						<p className="pt-3">727 Fairview Dr Suite B/C <br />
 							Carson City, NV 89702 <br />
-							<button>CarsonCityPottersHouse@gmail.com</button>
 						</p>
 					</div>
 					<div className="col-2 m-2 text-black">
