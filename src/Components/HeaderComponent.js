@@ -8,7 +8,7 @@ function Header() {
 			<div className="container-fluid bg-light">
 				<div className="row">
 					<div className="col-2">
-						<img src="/assets/logo.png" height={200} width={200} alt="logo" />
+						<img src="/assets/logo.png" height={200} width={200} alt="logo " />
 					</div>
 					<div className="col text-black">
 						<h1 className="mt-4 text-center">The Potter's House Christian Fellowship</h1>
