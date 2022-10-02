@@ -4,7 +4,7 @@ function Footer() {
 
 	return (
 		<footer>
-			<div className='container-fluid flex-bottom bg-light text-black'>
+			<div className='container-fluid position-bottom bg-light text-black'>
 				<div className='row offset-1'>
 					<div className='col'>
 						<h3>links</h3>
