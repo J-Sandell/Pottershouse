@@ -17,11 +17,8 @@ function Home() {
 					</div>
 				</div>
 				<div className="row mt-3">
-					<div className="col-3">
-						<img src="/assets/entrance.jpg" height={200} width={200} alt="entrance"></img>
-					</div>
 					<div className="col">
-						<h3>What We Believe</h3>
+						<h3>What We Believe:</h3>
 						<ul>
 							<li>There is only one God, and that He is eternally existent in Three Persons: Father, Son and Holy Spirit.</li>
 							<li>God the Father is the Creator of the universe. He created man in His oun image for fellowship, and called man back to Himself through Christ after the rebellion and fall of man.</li>
@@ -37,6 +34,12 @@ function Home() {
 							<li>In the bodily, personal, second coming of the Lord Jesus Christ, the resurrection of the saints, the millennium, and the final judgment. The final judgment will determine the eternal status of both the saints and the unbelievers, determined by their relationship to Jesus Christ.</li>
 						</ul>
 
+					</div>
+					<div className="col-3 mt-3">
+						<img src="/assets/entrance.jpg" height={200} width={200} alt="entrance"></img>
+						<img src="/assets/prayerscreen.jpg" height={200} width={200} alt="entrance"></img>
+						<img src="/assets/mainarea.jpg" height={200} width={200}></img>
+						<img src="/assets/mainarea2.jpg" height={200} width={200}></img>
 					</div>
 				</div>
 			</div>
