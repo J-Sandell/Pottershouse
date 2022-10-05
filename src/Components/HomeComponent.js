@@ -4,7 +4,7 @@ import { Fragment } from "react";
 
 function Home() {
 	return (
-		<Fragment>
+		<div>
 			<div className="container-fluid">
 				<div className="row">
 					<div className="col">
@@ -43,7 +43,7 @@ function Home() {
 				</div>
 			</div>
 
-		</Fragment>
+		</div>
 	)
 }
 
