@@ -5,10 +5,9 @@ import { Fragment } from "react";
 function Home() {
 	return (
 		<Fragment>
-			<div className="container">
+			<div className="container-fluid">
 				<div className="row">
 					<div className="col">
-
 						<img src="/assets/Family pic.jpg" alt="family" height={350} width={350} ></img>
 					</div>
 					<div className="col">
@@ -36,10 +35,10 @@ function Home() {
 
 					</div>
 					<div className="col-3 mt-3">
-						<img src="/assets/entrance.jpg" height={200} width={200} alt="entrance"></img>
-						<img src="/assets/prayerscreen.jpg" height={200} width={200} alt="entrance"></img>
-						<img src="/assets/mainarea.jpg" height={200} width={200}></img>
-						<img src="/assets/mainarea2.jpg" height={200} width={200}></img>
+						<img src="/assets/entrance.jpg" height={200} width={200} alt="Front Door"></img>
+						<img src="/assets/prayerscreen.jpg" height={200} width={200} alt="prayer"></img>
+						<img src="/assets/mainarea.jpg" height={200} width={200} alt="main"></img>
+						<img src="/assets/mainarea2.jpg" height={200} width={200} alt="main2"></img>
 					</div>
 				</div>
 			</div>
