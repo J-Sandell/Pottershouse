@@ -17,7 +17,19 @@ function Header() {
 					<div className="col mt-5 text-black">
 						<h1 className="text-center">The Potter's House Christian Fellowship</h1>
 						<p className="text-center">"We are a Bible believing Pentecostal Christian church. We believe and preach salvation through repentance of sins and acceptance of Jesus Christ as your Lord and Savior"</p>
-						
+						<nav>
+							<ul className="nav pt-5 justify-content-center">
+								<li className="nav-link">
+									<button>Home</button>
+								</li>
+								<li className="nav-link">
+									<button>Events</button>
+								</li>
+								<li className="nav-link">
+									<button>Contact</button>
+								</li>
+							</ul>
+						</nav>
 					</div>
 					<div className="col-1 ml-3 text-black">
 						<h3>Service Times:</h3>
