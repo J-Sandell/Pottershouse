@@ -9,7 +9,7 @@ function Head() {
 			<div className="container-fluid bg-dark">
 				<div className="row text-center text-white">
 					<div className="col-2">
-						<img src="/assets/logo.png" height={200} width={200} alt="logo " /><br />
+						<img className="family" src="/assets/logo.png" alt="logo " /><br />
 						<p>727 Fairview Dr Suite B/C <br />
 							Carson City, NV 89702 <br />
 						</p>
@@ -17,19 +17,6 @@ function Head() {
 					<div className="col-8">
 						<h1>The Potter's House Christian Fellowship</h1>
 						<p>"We are a Bible believing Pentecostal Christian church. We believe and preach salvation through repentance of sins and acceptance of Jesus Christ as your Lord and Savior"</p>
-						<nav>
-							<ul className="nav">
-								<li className="nav-item">
-								<button className="nav-link">Home</button>
-								</li>
-								<li className="nav-item">
-									<button className="nav-link">Events</button>
-								</li>
-								<li className="nav-item">
-									<button className="nav-link">Contact</button>
-								</li>
-							</ul>
-						</nav>
 					</div>
 					<div className="col-2">
 						<h3>Service Times:</h3>
@@ -38,6 +25,21 @@ function Head() {
 						<h5>Wednesday</h5>
 						<p>7 PM</p>
 					</div>
+				</div>
+				<div className="d-flex justify-content-end ">
+					<nav>
+						<ul className="nav">
+							<li className="nav-item">
+								<button className="nav-link">Home</button>
+							</li>
+							<li className="nav-item">
+								<button className="nav-link">Events</button>
+							</li>
+							<li className="nav-item">
+								<button className="nav-link">Contact</button>
+							</li>
+						</ul>
+					</nav>
 				</div>
 			</div>
 
