@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 
 
@@ -27,19 +28,24 @@ function Head() {
 					</div>
 				</div>
 				<div className="d-flex justify-content-end ">
-					<nav>
 						<ul className="nav">
-							<li className="nav-item">
-								<button className="nav-link">Home</button>
-							</li>
-							<li className="nav-item">
-								<button className="nav-link">Events</button>
-							</li>
-							<li className="nav-item">
-								<button className="nav-link">Contact</button>
-							</li>
+							<Link to="/home">
+								<li>
+									<button>Home</button>
+								</li>
+							</Link>
+							<Link to="/event">
+								<li>
+									<button>Event</button>
+								</li>
+							</Link>
+							<Link to="/contact">
+								<li>
+									<button>Contact</button>
+								</li>
+							</Link>
 						</ul>
-					</nav>
+					
 				</div>
 			</div>
 

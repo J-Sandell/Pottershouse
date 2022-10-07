@@ -1,13 +1,27 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Head from "./Head";
+import Home from "./Home";
+import Footer from "./Footer";
+import Contact from "./Contact";
+import Event from "./Event";
+import { Route, Routes } from 'react-router-dom';
 
 
 function Main() {
 	return (
-		<Router>
-			<Head />
-			<Route path="./home" component={Home} />
-			<Route path="./events" component={Event} />
-		</Router>
+
+		
+			<div>
+				<Head />
+				<Routes>
+						<Route path="/Home" element={<Home />} />
+						<Route path="/event" element={<Event />} />
+						<Route path="/contact" element={<Contact />} />
+				</Routes>
+				<Footer />
+			</div>
+		
 	)
 }
+
+export default Main;
