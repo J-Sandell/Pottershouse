@@ -29,7 +29,7 @@ function Head() {
 				</div>
 				<div className="d-flex justify-content-end ">
 						<ul className="nav">
-							<Link to="/home">
+							<Link to="/">
 								<li>
 									<button>Home</button>
 								</li>

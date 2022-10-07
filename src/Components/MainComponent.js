@@ -14,7 +14,7 @@ function Main() {
 			<div>
 				<Head />
 				<Routes>
-						<Route path="/Home" element={<Home />} />
+						<Route path="/" exact element={<Home />} />
 						<Route path="/event" element={<Event />} />
 						<Route path="/contact" element={<Contact />} />
 				</Routes>
