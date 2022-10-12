@@ -11,26 +11,26 @@ function Footer() {
 					<div className='col'>
 						<h3>links</h3>
 						<Link to="/">
-							<i className="bi bi-house-fill"></i>
+							<i className="bi bi-house-fill">Home</i>
 						</Link>
 						<br />
 						<Link to="/event">
-							<i className="bi bi-calendar-event-fill"></i>
+							<i className="bi bi-calendar-event-fill">Events</i>
 						</Link>
 						<br />
 						<Link to="/contact">
-							<i className="bi bi-person-rolodex"></i>
+							<i className="bi bi-person-rolodex">Contact</i>
 						</Link>
 					</div>
 					<div className='col'>
 						<h3>Social</h3>
-						<i className="bi bi-facebook"></i><br />
-						<i className="bi bi-instagram"></i>
+						<i className="bi bi-facebook">Facebook</i><br />
+						<i className="bi bi-instagram">Instagram</i>
 					</div>
 					<div className='col'>
 						<h3>Contact</h3>
-						<i className="bi bi-envelope-heart"></i><br />
-						<i className="bi bi-geo-fill"></i>
+						<i className="bi bi-envelope-heart">Email</i><br />
+						<i className="bi bi-geo-fill">Location</i>
 
 					</div>
 				</div>

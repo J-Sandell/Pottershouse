@@ -5,7 +5,7 @@ function Contact() {
 	return (
 		<div className="text-center">
 			<h1>Location</h1>
-			<img src="/assets/map.png" height={400} width={400} alt="place" />
+			<img src="/assets/map.png" height={500} width={500} alt="place" />
 			<h4>
 				727 Fairview Dr St B/C <br/>
 				Carson City, NV 89702
