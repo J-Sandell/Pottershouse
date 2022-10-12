@@ -5,7 +5,7 @@ function Contact() {
 	return (
 		<div className="text-center">
 			<h1>Contact</h1>
-
+			<button><img src="/assets/map.png" height={300} width={300} alt="place"/></button>
 
 			<p>The Potter's House Christian Fellowship Church<br />
 				727 Fairview Dr St B/C

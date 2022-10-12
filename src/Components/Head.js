@@ -31,17 +31,17 @@ function Head() {
 						<ul className="nav">
 							<Link to="/">
 								<li>
-									<button>Home</button>
+									<button className="link">Home</button>
 								</li>
 							</Link>
 							<Link to="/event">
 								<li>
-									<button>Event</button>
+									<button className="link">Event</button>
 								</li>
 							</Link>
 							<Link to="/contact">
 								<li>
-									<button>Contact</button>
+									<button className="link">Contact</button>
 								</li>
 							</Link>
 						</ul>
