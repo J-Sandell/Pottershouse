@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
+
 function Footer() {
 
 	return (
@@ -8,31 +10,28 @@ function Footer() {
 				<div className='row offset-1'>
 					<div className='col'>
 						<h3>links</h3>
-						<ul className='list-unstyled'>
-							<Link to="/">
-								<li>Home</li>
-							</Link>
-							<Link to="/event">
-								<li>Events</li>
-							</Link>
-							<Link to="/contact">
-								<li>Contact</li>
-							</Link>
-						</ul>
+						<Link to="/">
+							<i className="bi bi-house-fill"></i>
+						</Link>
+						<br />
+						<Link to="/event">
+							<i className="bi bi-calendar-event-fill"></i>
+						</Link>
+						<br />
+						<Link to="/contact">
+							<i className="bi bi-person-rolodex"></i>
+						</Link>
 					</div>
 					<div className='col'>
 						<h3>Social</h3>
-						<ul className='list-unstyled'>
-							<li>Facebook</li>
-							<li>Instagram</li>
-						</ul>
+						<i className="bi bi-facebook"></i><br />
+						<i className="bi bi-instagram"></i>
 					</div>
 					<div className='col'>
 						<h3>Contact</h3>
-						<ul className='list-unstyled'>
-							<li>Email</li>
-							<li>Location</li>
-						</ul>
+						<i className="bi bi-envelope-heart"></i><br />
+						<i className="bi bi-geo-fill"></i>
+
 					</div>
 				</div>
 			</div>
