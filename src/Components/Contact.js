@@ -4,18 +4,19 @@ import React from "react";
 function Contact() {
 	return (
 		<div className="text-center">
-			<h1>Contact</h1>
-			<button><img src="/assets/map.png" height={300} width={300} alt="place"/></button>
+			<h1>The Potter's House Christian Fellowship Church</h1>
+			<img src="/assets/map.png" height={400} width={400} alt="place" />
 
-			<p>The Potter's House Christian Fellowship Church<br />
+			<h4>
 				727 Fairview Dr St B/C
 				Carson City, NV 89702
-			</p>
+			</h4>
 			<p>
 				Service times:
 				Sunday 11 AM and 6 PM
 				Wednesday 7 PM
 			</p>
+			<p>Email:</p>
 		</div>
 	)
 }
