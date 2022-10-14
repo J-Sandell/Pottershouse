@@ -10,7 +10,7 @@ function Head() {
 			<div className="container-fluid bg-dark">
 				<div className="row text-center text-white">
 					<div className="col-2">
-						<img className="family" src="/assets/logo.png" alt="logo " /><br />
+						<img className="family" src="/assets/logo2.webp" height={400} width={400} alt="logo " /><br />
 						<p>727 Fairview Dr Suite B/C <br />
 							Carson City, NV 89702 <br />
 						</p>
