@@ -8,7 +8,7 @@ function Home() {
 			<div className="container-fluid">
 				<div className="row">
 					<div className="col">
-						<img src="/assets/Family pic.jpg" alt="family" height={350} width={350} ></img>
+						<img className="pictures" src="/assets/Family pic.jpg" alt="family" height={350} width={350} ></img>
 					</div>
 					<div className="col">
 						<h2>Meet the Pastor and Family</h2>
@@ -35,10 +35,10 @@ function Home() {
 
 					</div>
 					<div className="col-3 mt-3">
-						<img src="/assets/entrance.jpg" height={200} width={200} alt="Front Door"></img>
-						<img src="/assets/prayerscreen.jpg" height={200} width={200} alt="prayer"></img>
-						<img src="/assets/mainarea.jpg" height={200} width={200} alt="main"></img>
-						<img src="/assets/mainarea2.jpg" height={200} width={200} alt="main2"></img>
+						<img className="pictures" src="/assets/entrance.jpg" height={200} width={200} alt="Front Door"></img>
+						<img className="pictures" src="/assets/prayerscreen.jpg" height={200} width={200} alt="prayer"></img>
+						<img className="pictures" src="/assets/mainarea.jpg" height={200} width={200} alt="main"></img>
+						<img className="pictures" src="/assets/mainarea2.jpg" height={200} width={200} alt="main2"></img>
 					</div>
 				</div>
 			</div>
