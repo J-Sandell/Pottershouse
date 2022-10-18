@@ -28,24 +28,24 @@ function Head() {
 					</div>
 				</div>
 				<div className="d-flex justify-content-end ">
-						<ul className="nav">
-							<Link to="/">
-								<li>
-									<button className="link">Home</button>
-								</li>
-							</Link>
-							<Link to="/event">
-								<li>
-									<button className="link">Event</button>
-								</li>
-							</Link>
-							<Link to="/contact">
-								<li>
-									<button className="link">Contact</button>
-								</li>
-							</Link>
-						</ul>
-					
+					<ul className="nav">
+						<Link to="/">
+							<li>
+								<button className="link">Home</button>
+							</li>
+						</Link>
+						<Link to="/event">
+							<li>
+								<button className="link">Event</button>
+							</li>
+						</Link>
+						<Link to="/contact">
+							<li>
+								<button className="link">Contact</button>
+							</li>
+						</Link>
+					</ul>
+
 				</div>
 			</div>
 
