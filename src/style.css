@@ -28,3 +28,8 @@ p {
 
 
 }
+.card{
+	width: 500px;
+	margin: 50px;
+	border-radius: 10%;
+}
