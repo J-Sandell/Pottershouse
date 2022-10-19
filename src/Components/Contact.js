@@ -1,6 +1,7 @@
 import React from "react";
 
 
+
 function Contact() {
 	return (
 		<div className="text-center">
@@ -15,7 +16,6 @@ function Contact() {
 				Sunday 11 AM and 6 PM
 				Wednesday 7 PM
 			</p>
-			<p>Email:</p>
 		</div>
 	)
 }

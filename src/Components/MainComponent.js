@@ -1,9 +1,8 @@
 import React from "react";
-import Head from "./Head";
+import Header from "./Header";
 import Home from "./Home";
 import Footer from "./Footer";
 import Contact from "./Contact";
-import Header from "./Header";
 import Event from "./Event";
 import { Route, Routes } from 'react-router-dom';
 
@@ -11,8 +10,6 @@ import { Route, Routes } from 'react-router-dom';
 
 function Main() {
 	return (
-
-		
 			<div>
 				<Header />
 				<Routes>

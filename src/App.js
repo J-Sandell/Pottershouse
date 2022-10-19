@@ -1,6 +1,6 @@
 import Main from './Components/MainComponent';
 
-import './App.css';
+import './style.css';
 
 
 
