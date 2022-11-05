@@ -28,21 +28,21 @@ p {
 
 
 }
-.card{
-	width: 500px;
-	height: 500px;
-	margin: 50px;
-	border-radius: 10%;
-}
+
 .family{
 	padding-top: 15px;
 	margin-top: 20px;
 }
 .map{
-	border-radius: 15px;
+	border-radius: 5px;
 	
 }
-.Header{
+.contact{
 	display: flex;
-	justify-content: 
+	justify-content: space-evenly;
+}
+.footer--pin{
+	position: relative;
+	left: 0;
+	bottom: 0;
 }
