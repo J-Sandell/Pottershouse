@@ -6,7 +6,7 @@ function Footer() {
 
 	return (
 
-		<div className='container-fluid footer--pin bg-light text-black'>
+		<div className='container-fluid bg-light text-black'>
 			<div className='row offset-1'>
 				<div className='col'>
 					<h3>links</h3>
