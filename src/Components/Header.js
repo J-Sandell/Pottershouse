@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 function Header() {
 	return (
 		<Fragment>
-			<div className="container-fluid bg-black text-white">
-				<div className="row text-center">
+			<div className="head container-fluid bg-black text-white">
+				<div className="row">
 					<div className="col">
-						<img className="family" src="/assets/logo2.webp" height={200} width={200} alt="logo " />
+						<img className="" src="/assets/logo2.webp" height={300} width={300} alt="logo " />
 						<p>727 Fairview Dr Suite B/C
 							Carson City, NV 89702
 						</p>
