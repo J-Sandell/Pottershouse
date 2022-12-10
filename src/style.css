@@ -55,5 +55,9 @@ p {
 	justify-content: space-around;
 }
 
+.footer-site{
+display: flex;
+justify-content: center;
 
-
+	
+}
