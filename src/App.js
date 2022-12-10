@@ -1,5 +1,4 @@
 import Main from './Components/MainComponent';
-
 import './style.css';
 
 
