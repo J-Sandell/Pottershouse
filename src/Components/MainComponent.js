@@ -12,7 +12,7 @@ function Main() {
 	return (
 		<Fragment>
 			<Header />
-			<Routes>
+		 	<Routes>
 				<Route path="/" exact element={<Home />} />
 				<Route path="/event" element={<Event />} />
 				<Route path="/contact" element={<Contact />} />
