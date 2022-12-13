@@ -3,18 +3,20 @@
 	border-radius: 25%;
 	margin: 8px;
 }
-.head{
+
+.head {
 	display: flex;
 	justify-content: space-around;
-	
+
 }
 
 .pictures {
-	
+
 	margin: 4px;
 	border-radius: 15%;
 }
-.prayer{
+
+.prayer {
 	display: flex;
 	justify-content: flex-end;
 }
@@ -38,26 +40,27 @@ p {
 
 }
 
-.family{
+.family {
 	padding-top: 15px;
 	margin-top: 20px;
 }
-.map{
+
+.map {
 	border-radius: 5px;
-	
+
 }
-.contact{
+
+.contact {
 	display: flex;
 	justify-content: space-evenly;
 }
-.bottompix{
+
+.bottompix {
 	display: flex;
 	justify-content: space-around;
 }
 
-.footer-site{
-display: flex;
-justify-content: center;
-
-	
+.footer-site {
+	display: flex;
+	justify-content: space-evenly;
 }
