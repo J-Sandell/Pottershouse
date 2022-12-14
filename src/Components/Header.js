@@ -4,20 +4,20 @@ import { Link } from "react-router-dom";
 
 function Header() {
 	return (
-		<Fragment>
-			<div className="head container-fluid">
-				<div className="row">
-					<div className="col">
+		<div>
+			<div className="container-fluid">
+				<div className="row head">
+					<div className="col-2">
 						<img className="" src="/assets/logo2.webp" height={200} width={200} alt="logo " />
 						<p>727 Fairview Dr Suite B/C
 							Carson City, NV 89702
 						</p>
 					</div>
-					<div className="col">
+					<div className="col-6">
 						<h1>The Potter's House Christian Fellowship</h1>
 						<p>"We are a Bible believing Pentecostal Christian church. We believe and preach salvation through repentance of sins and acceptance of Jesus Christ as your Lord and Savior"</p>
 					</div>
-					<div className="col text-end mt-4">
+					<div className="col-2">
 						<h3>Service Times:</h3>
 						<h5>Sunday</h5>
 						<p>11 AM and 6 PM</p>
@@ -46,13 +46,7 @@ function Header() {
 				</ul>
 
 			</div>
-
-
-
-
-
-
-		</Fragment >
+		</div >
 	)
 }
 
