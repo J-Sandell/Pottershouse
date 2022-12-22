@@ -35,7 +35,7 @@ function Home() {
 					<li>In the bodily, personal, second coming of the Lord Jesus Christ, the resurrection of the saints, the millennium, and the final judgment. The final judgment will determine the eternal status of both the saints and the unbelievers, determined by their relationship to Jesus Christ.</li>
 
 				</div>
-				<div className="bottompix">
+				<div className="bottompix fluid">
 					<img className="pictures" src="/assets/entrance.jpg" height={200} width={200} alt="Front Door"></img>
 					<img className="pictures" src="/assets/prayerscreen.jpg" height={200} width={200} alt="prayer"></img>
 					<img className="pictures" src="/assets/mainarea.jpg" height={200} width={200} alt="main"></img>
