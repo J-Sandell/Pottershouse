@@ -7,7 +7,7 @@
 .head {
 	border: solid 3px black;
 	display: flex;
-	justify-content: center;
+	text-align: center;
 
 }
 
