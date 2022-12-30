@@ -7,6 +7,7 @@
 .head {
 	display: flex;
 	text-align: center;
+	background-color: rgb(230, 216, 246);
 
 }
 
@@ -63,4 +64,5 @@ p {
 .footer-site {
 	display: flex;
 	justify-content: space-evenly;
+	background-color: rgb(230, 216, 246);
 }

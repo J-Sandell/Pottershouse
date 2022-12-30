@@ -3,10 +3,8 @@ import React from "react";
 
 function Event() {
 	return (
-		<div>
-
+		<div className="container">
 			<h3 className="text">What We Believe:</h3>
-
 			<li>There is only one God, and that He is eternally existent in Three Persons: Father, Son and Holy Spirit.</li>
 			<li>God the Father is the Creator of the universe. He created man in His oun image for fellowship, and called man back to Himself through Christ after the rebellion and fall of man.</li>
 			<li>Jesus Christ is eternally God. He was together with the Father and the Holy Spirit from the beginning, and through Him all things were made. He left Heaven and became incarnated by the Holy Spirit of the Virgin Mary: henceforth, He is forever one Christ with two natures--God and Man--in one Person.</li>
@@ -19,7 +17,6 @@ function Event() {
 			<li>The Church is the Body of Christ, the habitation of God among the saints through the Spirit. Every believer born of the Spirit has a place in the church designated by God. A place where Christ is working in the lives of the called out ones and calling ministers to the great commission to go into all the world and make disciples of every nation.</li>
 			<li>In the ordinances of Baptism and the Lord's Supper. Baptism is the outward sign of what God has already done in the individual's life and is a public testimony that the person now belongs to Christ. It is identifying with the death and resurrection of Jesus and is done in the name of the Father, the Son, and the Holy Spirit. The Lord's Supper is a commemoration of the death of the Lord and is done in remembrance of Him until He comes again; it is a sign of our participation in Him.</li>
 			<li>In the bodily, personal, second coming of the Lord Jesus Christ, the resurrection of the saints, the millennium, and the final judgment. The final judgment will determine the eternal status of both the saints and the unbelievers, determined by their relationship to Jesus Christ.</li>
-
 		</div>
 	)
 }
