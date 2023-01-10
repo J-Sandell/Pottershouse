@@ -64,10 +64,11 @@ p {
 	justify-content: space-around;
 }
 
-.footer-site {
-	display: flex;
+.footer-site{
+	background-color: beige;
+	text-align: center;
+	padding: 5px;
+	position: relative;
 	
-	bottom: 0px;
-	justify-content: space-evenly;
-	background-color: rgb(230, 216, 246);
 }
+
