@@ -10,6 +10,9 @@
 	background-color: rgb(230, 216, 246);
 
 }
+.main{
+	position: relative;
+}
 
 .pictures {
 
@@ -63,7 +66,7 @@ p {
 
 .footer-site {
 	display: flex;
-	position: absolute;
+	
 	bottom: 0px;
 	justify-content: space-evenly;
 	background-color: rgb(230, 216, 246);
