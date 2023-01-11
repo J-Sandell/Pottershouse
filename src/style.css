@@ -8,8 +8,8 @@
 	display: flex;
 	text-align: center;
 	background-color: rgb(230, 216, 246);
-
 }
+
 .main{
 	position: relative;
 }
@@ -68,7 +68,7 @@ p {
 	background-color: beige;
 	text-align: center;
 	padding: 5px;
-	position: relative;
-	
+	margin: 10px;
 }
+
 
