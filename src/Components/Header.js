@@ -24,7 +24,7 @@ function Header() {
 						<p>11 AM and 6 PM</p>
 						<h5>Wednesday</h5>
 						<p>7 PM</p>
-						<button className="donate btn btn-primary" >Give</button>
+						<button className="donate btn" >Give</button>
 					</div>
 				</div>
 			</div>
