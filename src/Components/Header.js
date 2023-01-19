@@ -9,10 +9,7 @@ function Header() {
 				<div className="row head">
 					<div className="col">
 						<img src="/assets/logo2.webp" height={200} width={200} alt="logo " />
-						<p>
-							727 Fairview Dr Suite B/C
-							Carson City, NV 89702
-						</p>
+					
 					</div>
 					<div className="col">
 						<h1>The Potter's House Christian Fellowship</h1>
