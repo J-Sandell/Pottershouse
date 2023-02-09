@@ -1,3 +1,4 @@
+import { Fragment } from 'react';
 import Main from './Components/MainComponent';
 import './style.css';
 
@@ -5,9 +6,11 @@ import './style.css';
 
 function App() {
   return (
-    <div>
+    <Fragment>
       <Main/>
-    </div>
+  </Fragment>
+      
+   
   );
 }
 

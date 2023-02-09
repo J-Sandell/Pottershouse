@@ -17,7 +17,7 @@ function Main() {
 				<Route path="/event" element={<Event />} />
 				<Route path="/contact" element={<Contact />} />
 			</Routes>
-			<Footer/>
+			<Footer />
 		</Fragment>
 
 

@@ -66,13 +66,12 @@ p {
 }
 
 .footer-site{
+	background-color: aqua;
 	position: absolute;
 	bottom: 0px;
-	background-color: beige;
 	text-align: center;
-	padding: 5px;
-	margin: 10px;
 }
+	
 
 .donate{
 	color: white;
