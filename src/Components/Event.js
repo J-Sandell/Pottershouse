@@ -3,7 +3,7 @@ import React from "react";
 
 function Event() {
 	return (
-		<div className="container">
+		<div className="container mb-4">
 			<h3 className="text">What We Believe:</h3>
 			<li>There is only one God, and that He is eternally existent in Three Persons: Father, Son and Holy Spirit.</li>
 			<li>God the Father is the Creator of the universe. He created man in His oun image for fellowship, and called man back to Himself through Christ after the rebellion and fall of man.</li>

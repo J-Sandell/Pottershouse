@@ -5,7 +5,7 @@ import React from "react";
 function Contact() {
 	return (
 
-		<div className="contact text-center">
+		<div className="contact text-center mb-5">
 			<div className="">
 				<img className="map" src="/assets/map.png" height={400} width={400} alt="place" />
 				<h1>Location:</h1>
@@ -14,7 +14,7 @@ function Contact() {
 					Carson City, NV 89702
 				</h4>
 			</div>
-			<div className="">
+			<div>
 				<h2 className="text-center">Let us hear from you</h2>
 				<label for="email" className="form-label">Email address</label>
 				<input type="email" className="form-control" id="email" placeholder="emailus@emailus.com"></input>

@@ -8,7 +8,7 @@
 .head {
 	display: flex;
 	text-align: center;
-	background-color: rgb(230, 216, 246);
+	background-color: rgb(47, 171, 17);
 }
 
 .main{
@@ -67,8 +67,7 @@ p {
 
 .footer-site{
 	background-color: aqua;
-	position: absolute;
-	bottom: 0px;
+	
 	text-align: center;
 }
 	
