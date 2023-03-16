@@ -34,7 +34,7 @@ function Header() {
 					</Link>
 					<Link to="/event">
 						<li>
-							<button className="link">Event</button>
+							<button className="link">Our Beliefs</button>
 						</li>
 					</Link>
 					<Link to="/contact">

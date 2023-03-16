@@ -8,7 +8,8 @@
 .head {
 	display: flex;
 	text-align: center;
-	background-color: rgb(47, 171, 17);
+	background-color: rgb(213, 194, 179);
+	
 }
 
 .main{
@@ -16,7 +17,6 @@
 }
 
 .pictures {
-
 	margin: 4px;
 	border-radius: 15%;
 }
@@ -66,8 +66,7 @@ p {
 }
 
 .footer-site{
-	background-color: aqua;
-	
+	background-color: rgb(220, 181, 155);
 	text-align: center;
 }
 	
