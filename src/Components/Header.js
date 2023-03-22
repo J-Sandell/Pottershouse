@@ -7,7 +7,7 @@ function Header() {
 		<div>
 			<div className="container-fluid">
 				<div className="row head">
-					<div className="col">
+					<div className="col logo">
 						<img src="/assets/logo2.webp" height={200} width={200} alt="logo " />
 					
 					</div>
@@ -15,13 +15,12 @@ function Header() {
 						<h1>The Potter's House Christian Fellowship</h1>
 						<p>"We are a Bible believing Pentecostal Christian church. We believe and preach salvation through repentance of sins and acceptance of Jesus Christ as your Lord and Savior"</p>
 					</div>
-					<div className="col">
+					<div className="col service">
 						<h3>Service Times:</h3>
 						<h5>Sunday</h5>
 						<p>11 AM and 6 PM</p>
 						<h5>Wednesday</h5>
 						<p>7 PM</p>
-						<button className="donate btn" >Give</button>
 					</div>
 				</div>
 			</div>

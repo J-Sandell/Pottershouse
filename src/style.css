@@ -1,15 +1,19 @@
 .link {
-	background-color: white;
+	background-color: rgb(250, 229, 210);
 	border: solid 2px black;
-	border-radius: 25%;
+	border-radius: 10%;
 	margin: 8px;
 }
 
 .head {
 	display: flex;
 	text-align: center;
+	max-height: fit-content;
 	background-color: rgb(213, 194, 179);
 	
+}
+.logo{
+	margin-top: 3rem;
 }
 
 .main{
@@ -78,4 +82,6 @@ p {
 	height: 50px;
 	margin-top: 65px;
 }
-
+.service{
+	margin-top: 4rem;
+}
