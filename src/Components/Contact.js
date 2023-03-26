@@ -14,14 +14,6 @@ function Contact() {
 						Carson City, NV 89702
 					</h4>
 				</div>
-				<div>
-					<h2 className="text-center">Let us hear from you</h2>
-					<label for="email" className="form-label">Email address</label>
-					<input type="email" className="form-control" id="email" placeholder="emailus@emailus.com"></input>
-					<label for="emailwriting" className="form-label">Write us here</label>
-					<textarea className="form-control" id="emailwriting" rows={8}></textarea>
-					<button className="btn btn-primary mt-2">Submit</button>
-				</div>
 			</div>
 			<div className="bottompix m-3">
 				<img className="pictures" src="/assets/entrance.jpg" height={200} width={200} alt="Front Door"></img>
