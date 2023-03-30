@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import Header from "./Header";
 import Home from "./Home";
 import Footer from "./Footer";
@@ -10,7 +10,7 @@ import { Route, Routes } from 'react-router-dom';
 
 function Main() {
 	return (
-		<div className="p-3">
+		<div className="main">
 			<Header />
 			<Routes>
 				<Route path="/" exact element={<Home />} />

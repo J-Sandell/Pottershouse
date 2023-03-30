@@ -10,13 +10,14 @@
 	text-align: center;
 	max-height: fit-content;
 	background-color: rgb(213, 194, 179);
-	
+
 }
-.logo{
+
+.logo {
 	margin-top: 3rem;
 }
 
-.main{
+.main {
 	position: relative;
 }
 
@@ -69,20 +70,29 @@ p {
 	justify-content: space-around;
 }
 
-.footer-site{
-	background-color: rgb(220, 181, 155);
+.footer-site {
+	background-color: rgb(213, 194, 179);
 	text-align: center;
 }
-	
 
-.donate{
+
+.donate {
 	color: white;
 	background-color: green;
 	width: 150px;
 	height: 50px;
 	margin-top: 65px;
 }
-.service{
+
+.service {
 	margin-top: 4rem;
 }
 
+.video {
+	display: flex;
+	justify-content: center;
+}
+
+.main {
+	background-color: bisque;
+}

@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 
@@ -9,7 +9,7 @@ function Header() {
 				<div className="row head">
 					<div className="col logo">
 						<img src="/assets/logo2.webp" height={200} width={200} alt="logo " />
-					
+
 					</div>
 					<div className="col">
 						<h1>The Potter's House Christian Fellowship</h1>
